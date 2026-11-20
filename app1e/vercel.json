@@ -6,19 +6,19 @@
       "use": "vercel-php@0.7.1",
       "config": {
         "includeFiles": [
-          "api/apple2k26/**"
+          "api/apple20k26/**"
         ]
       }
     },
     {
-      "src": "api/apple2k26/res/**",
+      "src": "api/apple20k26/icloud/res/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/res/(.*)",
-      "dest": "/api/apple2k26/res/$1"
+      "dest": "/api/apple20k26/icloud/res/$1"
     },
     {
       "src": "/(.*)",
