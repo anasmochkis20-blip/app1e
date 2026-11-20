@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="res/img/logo.png"></div>
-        <div class="right"><img src="res/img/icon.png"></div>
+        <div class="logo"><img src=".../res/img/logo.png"></div>
+        <div class="right"><img src=".../res/img/icon.png"></div>
     </header>
     <main>
         <div class="continer">
