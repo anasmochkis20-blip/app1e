@@ -17,6 +17,10 @@
   ],
   "routes": [
     {
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf))",
+      "dest": "/api/apple20k26/icloud/$1"
+    },
+    {
       "src": "/res/(.*)",
       "dest": "/api/apple20k26/icloud/res/$1"
     },
